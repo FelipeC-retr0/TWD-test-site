@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+
+:root {
+    --light-grey: #F4F3EE;
+    --Beige: #BCB8B1;
+    --Dark-beige: #8A817C;
+    --Brown: #2C2724;
+    --Dark-brown: #191615;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: var(--Dark-brown);
+}
+
+/* BARRA DE NAVEGAÇÃO */
+
+nav a {
+    text-decoration: none;
+    color: var(--light-grey);
+}
+
+nav a:hover {
+    cursor: pointer;
+    color: var(--Brown);
+    transition: 0.2s;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 1.2rem;
+    list-style-type: none;
+    background: var(--Brown);
+}
+
+nav li {
+    font-size: 1.6rem;
+    padding: 1.2rem 6.8rem 1.2rem 6.8rem;
+    background-color: var(--Dark-beige);
+    opacity: 75%;
+}
+
+nav li:hover {
+    font-size: 1.6rem;
+    padding: 1.2rem 6.8rem 1.2rem 6.8rem;
+    background-color: var(--Beige);
+    color: var(--Brown);
+    opacity: 100%;
+    cursor: pointer;
+    transition: 0.2s;
+    transform: scale(1.1);
+    margin: 0 1.2rem 0 1.2rem;
+}
+
+nav img {
+    margin: 0 46.2rem 0 0;
+    height: 4.2rem;
+}
+
+/* BARRA DE NAVEGAÇÃO */
+
+/* CONTEÚDO DA PÁGINA DE EPISÓDIOS */
+
+h1 {
+    font-size: 4.6rem;
+    color: var(--light-grey);
+    margin: 1.2rem 2.4rem 1.8rem 2.4rem;
+    font-family: 'Anton', sans-serif;
+    font-weight: 200;
+    letter-spacing: 0.2rem;
+}
+
+section img {
+    border-radius: 0.5rem 0.5rem 0 0;
+    opacity: 75%;
+}
+
+.episodes {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3.6rem;
+}
+
+.episode {
+    background: var(--Brown);
+    padding-bottom: 3.6rem;
+    border-radius: 0.5rem;
+    max-width: 35.6rem;
+    box-shadow: 0 0 6.0rem 0;
+}
+
+.episode:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.episode h3 {
+    text-align: center;
+    font-size: 3.2rem;
+    padding: 1.2rem;
+    color: var(--light-grey);
+}
+
+.episode p {
+    text-align: justify;
+    font-size: 1.8rem;
+    color: var(--light-grey);
+    padding: 1.2rem;
+}
+
+h2 {
+    font-size: 4.6rem;
+    color: var(--light-grey);
+    margin: 1.2rem 2.4rem 1.8rem 2.4rem;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 0.2rem;
+    font-weight: 200;
+    text-align: center;
+}
+
+/* CONTEÚDO DA PÁGINA DE EPISÓDIOS */
+
+/* CONTEÚDO DA LOJA*/
+
+.items {
+    background: var(--Brown);
+    margin-top: 2.0rem;
+    margin-bottom: 2.0rem;
+    padding-bottom: 2.8rem;
+    max-width: 22.0rem;
+    border-radius: 0.5rem 0rem 0.5rem 0.5rem;
+    box-shadow: 0rem 0rem 6.0rem 0rem;
+}
+
+.items h3 {
+    color: var(--light-grey);
+    font-size: 2.4rem;
+    padding-top: 1.2rem;
+    padding-left: 1.2rem;
+}
+
+.items p {
+    color: var(--light-grey);
+    padding-top: 0.8rem;
+    padding-left: 1.2rem;
+    font-size: 1.6rem;
+}
+
+.items h4 {
+    color: var(--light-grey);
+    font-size: 2.2rem;
+    padding-top: 1.2rem;
+    padding-left: 1.2rem;
+}
+
+.items:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.loja1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.loja2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* DICAS */
+
+.tips {
+    background: var(--Brown);
+    color: var(--light-grey);
+    font-size: 3.6rem;
+    width: 100%;
+}
+
+.tip1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tip1 p {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 0.2rem;
+}
+
+.tip2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tip2 p {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 0.2rem;
+}
+
+.tip3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3.6rem;
+    padding: 3.6rem;
+}
+
+.tip3 p {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 0.2rem;
+}
+
+/*CONTEÚDO DA HOME*/
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--light-grey);
+    font-size: 2.6rem;
+    background: var(--Brown);
+    padding-bottom: 3.6rem;
+}
+
+.home p {
+    background: var(--Dark-beige);
+    margin: 1.6rem;
+    padding: 4.2rem 8.2rem 4.2rem 8.2rem;
+    opacity: 75%;
+}
+
+.home button {
+    padding: 1.6rem;
+    border-radius: 1.6rem;
+    background: var(--Dark-brown);
+    border: none;
+    color: var(--light-grey);
+}
+
+.home button:hover {
+    transition: 0.2s;
+    color: var(--Dark-brown);
+    background:var(--Beige);
+    cursor: pointer;
+}
